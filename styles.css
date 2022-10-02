@@ -26,11 +26,11 @@ main, aside {
 header, footer {
     background-color: rgb(255, 192, 228);
     padding: 24px 0;
-    margin-bottom: 5px;
 }
 
 header {
     border-bottom: 8px dashed gray;
+    margin-bottom: 5px;
 }
 
 nav{
