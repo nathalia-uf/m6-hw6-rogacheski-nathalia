@@ -14,3 +14,7 @@ header.name {
 header.headernav {
     margin-left: auto;
 }
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+}
