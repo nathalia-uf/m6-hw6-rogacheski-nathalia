@@ -2,18 +2,37 @@ body {
     background-color: bisque;
     background-image: center;
     color: black;
+    margin: 0;
+    min-height: 100vh;
 }
-header.nameandnav {
+main, nav {
+    max-width: 800px;
+    margin: 0 auto;
+}
+header, footer {
+    display: flex;
+    background-color: white;
+    padding: 24px 0;
+    color: gray;
+}
+
+nav {
     display: flex;
 }
 
-header.name {
-    margin-right:auto;
+.logo {
+    margin-right: auto;
 }
 
-header.headernav {
-    margin-left: auto;
+.link {
+    margin: 0 4px;
 }
+
+.aboutwriting {
+    display: flex;
+    flex-wrap: 
+}
+
 footer {
     text-align: center;
     margin: 40px 0 20px;
