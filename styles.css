@@ -1,23 +1,45 @@
 body {
+    background-image: url("images/watercolor.jpg");
     background-color: bisque;
     background-image: center;
     color: black;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 main, nav {
     max-width: 800px;
     margin: 0 auto;
-}
-header, footer {
-    display: flex;
-    background-color: white;
-    padding: 24px 0;
-    color: gray;
+    padding: 0 12px;
 }
 
-nav {
+main, aside {
     display: flex;
+}
+
+.aboutme {
+    background-color: white;
+}
+
+header, footer {
+    background-color: rgb(255, 192, 228);
+    padding: 24px 0;
+    margin-bottom: 5px;
+}
+
+header {
+    border-bottom: 8px dashed gray;
+}
+
+nav{
+    display: flex;
+}
+
+.logo, .link {
+    color: white;
+    font-size: 25px;
 }
 
 .logo {
@@ -28,12 +50,28 @@ nav {
     margin: 0 4px;
 }
 
-.aboutwriting {
-    display: flex;
-    flex-wrap: 
+h1{
+    font-size: 30px;
+    border-bottom: 5px dotted lightpink;
+}
+img {
+    float: left;
+    margin-right: 5px;
+}
+
+aside {
+    margin-left: 20px;
+    background-color: pink;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    border: 5px dotted black;
+    max-height: fit-content;
+    flex-direction: column;
 }
 
 footer {
+    color: white;
     text-align: center;
-    margin: 40px 0 20px;
+    margin-top: auto;
 }
