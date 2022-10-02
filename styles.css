@@ -1,14 +1,16 @@
 body {
-    background-image: url("images/watercolor.jpg");
     background-color: bisque;
     background-image: center;
-    margin: 100%;
     color: black;
 }
-.nameandnav {
+header.nameandnav {
     display: flex;
 }
 
-.headername {
+header.name {
     margin-right:auto;
+}
+
+header.headernav {
+    margin-left: auto;
 }
